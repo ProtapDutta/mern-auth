@@ -10,7 +10,7 @@ import { UserContextProvider } from '../context/userContext';
 import Dashboard from './pages/Dashboard';
 
 
-axios.defaults.baseURL = 'http://localhost:8000';
+axios.defaults.baseURL = 'https://mern-auth-6kzf.onrender.com';
 axios.defaults.withCredentials = true
 
 function App() {
